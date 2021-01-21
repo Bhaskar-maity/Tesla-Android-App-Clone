@@ -1,9 +1,12 @@
-import { View, Text } from "react-native";
+import { View, Text, Pressable } from "react-native";
+import styles from "./styles";
 
 const StyledButton = () => {
    return (
       <View>
-         <Text></Text>
+         <Pressable style={styles.button} onPress={console.warn("clicked")}>
+            <Text>tap</Text>
+         </Pressable>
       </View>
    );
 };
