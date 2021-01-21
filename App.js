@@ -34,6 +34,12 @@ const styles = StyleSheet.create({
       marginTop: "30%",
       alignItems: "center",
    },
-   title: {},
-   subtitle: {},
+   title: {
+      fontSize: 40,
+      fontWeight: "600",
+   },
+   subtitle: {
+      fontSize: 17,
+      color: "black",
+   },
 });
