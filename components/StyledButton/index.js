@@ -13,10 +13,10 @@ const StyledButton = (props) => {
          <Pressable
             style={[styles.button, { backgroundColor: backgroundColor }]}
             onPress={() => {
-               console.warn("clicked");
+               onPress();
             }}
          >
-            <Text style={[styles.text, { color: textColor }]}>tap</Text>
+            <Text style={[styles.text, { color: textColor }]}>{content}</Text>
          </Pressable>
       </View>
    );
